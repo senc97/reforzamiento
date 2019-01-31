@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Registro de curso</title>
+    <link rel="stylesheet" href="styles.css">
+    <script type="text/javascript" src="main.js"></script>
+  </head>
+  <body>
+    <form class="form" action="index.html" method="post">
+      <div class="form-element">
+        <label for="">Nombre :</label>
+        <input type="text" name="" value="" class="nombres">
+      </div>
+      <div class="form-element">
+        <label for="">Apellidos :</label>
+        <input type="text" name="" value="" class="apellidos">
+      </div>
+      <div class="form-element select-genre">
+        <label>Genero:</label>
+        <div>
+          <input type="radio" id="masculino" name="genero" value="masculino" checked>
+          <label for="masculino">Masculino</label>
+        </div>
+        <div>
+          <input type="radio" id="femenino" name="genero" value="femenino">
+          <label for="femenino">Femenino</label>
+        </div>
+        <div>
+          <input type="radio" id="otro" name="genero" value="otro">
+          <label for="otro">Otro</label>
+        </div>
+      </div>
+      <div class="form-element select-genre">
+        <label for="">Curso :</label>
+        <select class="curso" name="">
+          <option value="">Desarrollo Web</option>
+          <option value="">Desarrollo Mobile</option>
+          <option value="">Diseño</option>
+        </select>
+      </div>
+      <button type="submit" name="button" class="boton-registrar">Registrar</button>
+    </form>
+    <p class="mensaje-texto"></p>
+  </body>
+</html>

@@ -1,0 +1,50 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.form-element {
+  margin-bottom: 10px;
+}
+
+.form-element:not(.select-genre) label {
+  display: block;
+}
+
+label {
+  text-transform: uppercase;
+}
+
+input[type="text"] {
+  display: block;
+  width: 100%;
+  padding: 4px;
+  border-radius: 4px;
+  border: 1px solid grey;
+}
+
+button {
+  background: #dddd;
+  border: 0;
+  padding: 10px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 100px;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+
+.mensaje-texto {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.curso {
+  width: 100%;
+}
